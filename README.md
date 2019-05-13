@@ -11,3 +11,7 @@ Create a nginx deployment
 or
 
 <code>kubectl run nginx --image=nginx</code>
+
+Scale the nginx-deployment to 3 replicas
+
+<code>kubectl scale deployment/nginx-deployment --replicas=3</code>
