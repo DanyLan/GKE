@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata:
-  name: nginxpod
-spec:
-  containers:
-  -  name: nginxpod
-     image: nginx
-  restartPolicy: Always
